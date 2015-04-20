@@ -102,10 +102,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'deployment_example_project.urls'
+ROOT_URLCONF = 'exigoking_helloworld.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'deployment_example_project.wsgi.application'
+WSGI_APPLICATION = 'exigoking_helloworld.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -127,7 +127,7 @@ INSTALLED_APPS = (
 
     "djcelery",
 
-    "deployment_example_project",
+    "exigoking_helloworld",
 )
 
 # A sample logging configuration. The only tangible logging

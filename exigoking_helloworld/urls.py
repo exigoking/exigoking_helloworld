@@ -7,7 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'deployment_example_project.views.home', name='home'),
+    url(r'^$', 'exigoking_helloworld.views.home', name='home'),
     # url(r'^deployment_example_project/', include('deployment_example_project.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
