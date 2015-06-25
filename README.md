@@ -1,3 +1,2 @@
-Example Project for the "Idiomatic Guide to Django Deployment"
-=================================
+# Following a G. London guide on setting up nginx server with sample django project
 
